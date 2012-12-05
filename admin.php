@@ -79,7 +79,7 @@ shuttoを利用するには、<a href="https://shutto.com/register" target="_bla
 
 <?php 
 if($flgSetAccount == false){
-	echo '<p class="desc1">shuttoのユーザIDを下のフォームより登録してください。</p>';
+	echo '<p class="desc1">shuttoのユーザIDを以下のフォームに入力してください。</p>';
 }else{
 	echo '<p class="desc1">shuttoのユーザID: '. $flgSetAccount .'が設定されています。</p>';
 }
@@ -105,7 +105,7 @@ if($submit == true && count($arrErrMsg) == 0){
 <label for="shutto_account" accesskey="n">shuttoのユーザID</label><input type="text" name="shutto_account" id="shutto_account" size="50" />
 <input type="hidden" name="postback_key" value="<?php echo $rString ?>" />
 <input type="hidden" name="submit_btn" value="" />
-<center><input type="button" name="upload_btn" value="submit" onClick="document.frm1.submit_btn.value = 'submit'; document.frm1.submit();"/></center>
+<center><input type="button" name="upload_btn" value="設定" onClick="document.frm1.submit_btn.value = 'submit'; document.frm1.submit();"/></center>
 </form>
 </div>
 
