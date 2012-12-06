@@ -75,7 +75,7 @@ function shutto_config_disp($arrErrMsg, $rString, $submit){
 このプラグインは、shuttoを使って変換したWordPressのサイトを、スマートフォン対応サイトにすることができます。
 
 shuttoを利用するには、<a href="https://shutto.com/register" target="_blank">こちら</a>よりshuttoのユーザを登録していただき、
-下記のフォームにshuttoのユーザIDを入力してください。
+shuttoのユーザIDを以下のフォームに入力してください。
 
 <?php 
 if($flgSetAccount == false){
@@ -98,7 +98,7 @@ if($submit == true && count($arrErrMsg) > 0){
 
 <?php 
 if($submit == true && count($arrErrMsg) == 0){
-	echo '<div class="successMsg">shuttoのユーザIDの登録に成功しました。</div>';
+	echo '<div class="successMsg">shuttoのユーザIDを登録しました。</div>';
 }
 ?>
 
@@ -139,7 +139,7 @@ function checkPostback(&$arrErrMsg){
 
 function checkAccount($arrErrMsg){
 	if(empty($_POST['shutto_account']) == true){
-		$arrErrMsg['shutto_account'] = 'shuttoのユーザIDが入力されていません';
+		$arrErrMsg['shutto_account'] = 'shuttoのユーザIDが入力されていません。';
 		return;
 	}
 	
