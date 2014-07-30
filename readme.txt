@@ -4,7 +4,7 @@ Donate link:
 Tags: smartphone, authoring, shutto
 Requires at least: 3.4
 Tested up to: 3.4
-Stable tag: 1.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,10 @@ Your WordPress optimized to smartphone.
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1 =
+* Upgrade Plugin for PHP 5.4
+* refine Session management.
 
 == Upgrade Notice ==
 

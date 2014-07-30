@@ -6,7 +6,7 @@
 Plugin Name: shutto
 Plugin URI: 
 Description: shuttoは、PCサイトをスマートフォンサイトに変換するサービスです。このプラグインは、shuttoを使って変換したWordPressのサイトにJavaScriptタグを挿入し、スマートフォン対応サイトにすることができます。
-Version: 1.0.0
+Version: 1.1.0
 Author: e-Agency Co LTD.
 Author URI: 
 License: GPLv2 or later
@@ -29,7 +29,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */
 
 
-define('SHUTTO_VERSION', '1.0.0');
+define('SHUTTO_VERSION', '1.1.0');
 define('SHUTTO_PLUGIN_URL', plugin_dir_url( __FILE__ ));
 
 register_activation_hook(__FILE__, 'activation_func');

@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 
 class Admin{
 
@@ -22,8 +22,8 @@ function shutto_config(){
 	$arrErrMsg = array();
 	if( $_POST["submit_btn"] == "submit" ){ 
 		$submit = true;
-		$this->checkAccount(&$arrErrMsg);
-		$this->checkPostBack(&$arrErrMsg);
+		$this->checkAccount($arrErrMsg);
+		$this->checkPostBack($arrErrMsg);
 		if(count($arrErrMsg) == 0){
 			$this->submitProcess();
 		}
@@ -137,7 +137,7 @@ function checkPostback(&$arrErrMsg){
 }
 
 
-function checkAccount($arrErrMsg){
+function checkAccount(&$arrErrMsg){
 	if(empty($_POST['shutto_account']) == true){
 		$arrErrMsg['shutto_account'] = 'shuttoのユーザIDが入力されていません。';
 		return;
@@ -202,5 +202,11 @@ function getSettingAccount(){
 }
 
 }
+
+function register_session(){
+	if( !session_id() )
+		session_start();
+}
+add_action('init','register_session');
 
 $objAdmin = new Admin();
