@@ -8,6 +8,8 @@ Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+*Important! Currently , shutto plugin does not support*
+
 "shutto" is a service for authoring and optimization from PC Website to smartphone site.
 This plugin makes it easy to convert your WordPress into a smartphone site.
 
@@ -21,6 +23,8 @@ shutto (Japanese Only)
 http://shutto.com/
 
 == Installation ==
+
+*Important! Currently , shutto plugin does not support*
 
 1. Create "shutto" user account
 Create "shutto" user account for free. (Japanese Only)
@@ -41,6 +45,8 @@ Your WordPress optimized to smartphone.
 
 == Frequently Asked Questions ==
 
+*Important! Currently , shutto plugin does not support*
+
 == Screenshots ==
 
 == Changelog ==
@@ -52,6 +58,8 @@ Your WordPress optimized to smartphone.
 == Upgrade Notice ==
 
 == Arbitrary section ==
+
+*Important! Currently , shutto plugin does not support*
 
 "shutto" is a service for authoring and optimization from PC Website to smartphone site.
 
@@ -76,4 +84,3 @@ Save smartphone layout, Preview your smartphone.
 Set "shutto" user account from plugin.
 Your WordPress optimized to smartphone.
 
-== A brief Markdown Example ==
