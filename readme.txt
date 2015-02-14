@@ -8,8 +8,6 @@ Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-*Currently, this plug-in is not available. Support for this plug-in has finished.*
-
 "shutto" is a service for authoring and optimization from PC Website to smartphone site.
 This plugin makes it easy to convert your WordPress into a smartphone site.
 
