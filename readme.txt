@@ -8,12 +8,13 @@ Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-shutto is a service for authoring and optimization from PC Website to smartphone site.
+"shutto" is a service for authoring and optimization from PC Website to smartphone site.
 This plugin makes it easy to convert your WordPress into a smartphone site.
 
 == Description ==
+*Important! Currently , shutto plugin does not support*
 
-shutto is a service for authoring and optimization from PC Website to smartphone site.
+"shutto" is a service for authoring and optimization from PC Website to smartphone site.
 This plugin makes it easy to convert your WordPress into a smartphone site.
 
 shutto (Japanese Only)
