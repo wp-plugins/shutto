@@ -13,7 +13,7 @@ This plugin makes it easy to convert your WordPress into a smartphone site.
 
 == Description ==
 
-"shutto" is a service for authoring and optimization from PC Website to smartphone site.
+shutto is a service for authoring and optimization from PC Website to smartphone site.
 This plugin makes it easy to convert your WordPress into a smartphone site.
 
 shutto (Japanese Only)
